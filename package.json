@@ -1,0 +1,29 @@
+{
+  "name": "ioant-proto",
+  "version": "0.1.1",
+  "description": "",
+  "main": "protoio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ioant",
+    "proto"
+  ],
+  "author": "Adam Saxen",
+  "license": "MIT",
+  "bugs": {
+      "url" : "https://github.com/ioants/npm-package-proto/issues"
+  },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/ioants/npm-package-proto.git"
+  },
+  "dependencies" :
+  {
+      "bluebird": "^3.0",
+      "protobufjs": "^6.5.2",
+      "ioant-logger": ">=0.1.0"
+  }
+}
